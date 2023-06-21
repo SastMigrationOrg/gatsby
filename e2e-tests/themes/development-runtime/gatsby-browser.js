@@ -2,6 +2,7 @@ if (typeof window !== `undefined`) {
   window.___PageComponentLifecycleCallsLog = []
 }
 
+
 const addLogEntry = (action, location) => {
   const idElement = document.querySelector(`[data-testid="dom-marker"]`)
   window.___PageComponentLifecycleCallsLog.push({
