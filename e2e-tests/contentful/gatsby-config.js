@@ -27,6 +27,7 @@ module.exports = {
           // and ensure that we respect these defaults
           placeholder: `none`,
         },
+        
       },
     },
     // Enable to update schema.sql
